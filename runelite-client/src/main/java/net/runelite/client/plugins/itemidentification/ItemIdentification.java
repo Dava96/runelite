@@ -119,7 +119,30 @@ enum ItemIdentification
 	RED_TOPAZ(Type.GEM, "Topaz", "T", ItemID.UNCUT_RED_TOPAZ, ItemID.RED_TOPAZ),
 	DRAGONSTONE(Type.GEM, "Dragon", "DR", ItemID.UNCUT_DRAGONSTONE, ItemID.DRAGONSTONE),
 	ONYX(Type.GEM, "Onyx", "ON", ItemID.UNCUT_ONYX, ItemID.ONYX),
-	ZENYTE(Type.GEM, "Zenyte", "Z", ItemID.UNCUT_ZENYTE, ItemID.ZENYTE);
+	ZENYTE(Type.GEM, "Zenyte", "Z", ItemID.UNCUT_ZENYTE, ItemID.ZENYTE),
+
+	//Bones
+	BAT(Type.BONE, "Bat", "Bat", ItemID.BAT_BONES),
+	WOLF(Type.BONE, "Wolf", "Wol", ItemID.WOLF_BONES),
+	BONES(Type.BONE, "Bones", "Bone", ItemID.BONES),
+	BABY_DRAGON(Type.BONE, "Baby", "B.Dra", ItemID.BABYDRAGON_BONES),
+	BIG(Type.BONE, "Big", "Big", ItemID.BIG_BONES),
+	DAGANNOTH(Type.BONE, "Dagan", "Dag", ItemID.DAGANNOTH_BONES),
+	DRAGON(Type.BONE, "Dragon", "Drag", ItemID.DRAGON_BONES),
+	DRAKE(Type.BONE, "Drake", "Drak", ItemID.DRAKE_BONES),
+	FAYRG(Type.BONE, "Fayrg", "Fay", ItemID.FAYRG_BONES),
+	HYDRA(Type.BONE, "Hydra", "Hyd", ItemID.HYDRA_BONES),
+	JOGRE(Type.BONE, "Jogre", "Jog", ItemID.JOGRE_BONES),
+	LAVA(Type.BONE, "Lava", "Lav", ItemID.LAVA_DRAGON_BONES),
+	MONKEY(Type.BONE, "Monkey", "Mon", ItemID.MONKEY_BONES_3183),
+	OURG(Type.BONE, "Ourg", "Our", ItemID.OURG_BONES),
+	RAURG(Type.BONE, "Raurg", "Rau", ItemID.RAURG_BONES),
+	SHAIKAHAN(Type.BONE, "Shaik", "Sha", ItemID.SHAIKAHAN_BONES),
+	SUPERIRORDRAGON(Type.BONE, "Super", "S.Dra", ItemID.SUPERIOR_DRAGON_BONES),
+	WYRM(Type.BONE, "Wyrm", "Wyr", ItemID.WYRM_BONES),
+	WYVERN(Type.BONE, "Wyvern", "Wyv", ItemID.WYVERN_BONES),
+	ZOGRE(Type.BONE, "Zogre", "Zog", ItemID.ZOGRE_BONES),
+	BURNT(Type.BONE, "Burnt", "Bur", ItemID.BURNT_BONES);
 
 	final Type type;
 	final String medName;
@@ -162,6 +185,7 @@ enum ItemIdentification
 		HERB,
 		SAPLING,
 		ORE,
-		GEM
+		GEM,
+		BONE
 	}
 }
