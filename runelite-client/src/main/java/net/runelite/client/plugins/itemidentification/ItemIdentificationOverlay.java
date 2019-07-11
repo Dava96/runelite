@@ -92,6 +92,11 @@ class ItemIdentificationOverlay extends WidgetItemOverlay
 					return;
 				}
 				break;
+			case BONE:
+				if (!config.showBones())
+				{
+					return;
+				}
 		}
 
 		graphics.setFont(FontManager.getRunescapeSmallFont());
