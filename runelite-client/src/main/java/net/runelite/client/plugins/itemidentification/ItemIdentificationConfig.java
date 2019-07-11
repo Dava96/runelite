@@ -103,4 +103,14 @@ public interface ItemIdentificationConfig extends Config
 	{
 		return false;
 	}
+
+	@ConfigItem(
+		keyName = "showBones",
+		name = "Bones",
+		description = "Show identification on Bones"
+	)
+	default boolean showBones()
+	{
+		return false;
+	}
 }
